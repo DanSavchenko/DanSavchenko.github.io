@@ -1,0 +1,228 @@
+body { background: url(back.jpg); 
+margin:0;
+font: 100% arial;	
+}
+
+A {
+    color: rgb(167,193,220); /* Цвет ссылок */
+	text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
+					1px 1px 1px rgba(255,255,255, 0.2), 
+					1px 1px 1px rgba(0,0,0, 0.7);
+   }
+
+
+.main_head {
+
+	width: 960px; /* Ширина элемента в пикселах */
+    margin: auto; /* Выравниваем по центру */
+	margin-top: 100px;
+  height: 75px;
+  background: url(sprite-main.png) no-repeat;
+  background-position: 0  0px;  
+ }
+
+.main{
+	background : white;
+	width: 960px; /* Ширина элемента в пикселах */
+    margin: auto; /* Выравниваем по центру */
+	margin-bottom:-120px;
+	  
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;   
+}
+
+
+.slid_pic{
+opacity:0;
+position: absolute;
+	top:175px;
+}
+.down_menu{
+width:960px;
+height:54px;
+
+margin-top:245px;	
+background: url(down_menu_background.gif);
+}
+.down_menu ul{
+margin-left:10px;	/* сдвигаем всю нижнюю меню вправо */
+}
+
+
+.header{
+	color: rgb(0,77,149);
+	font-weight: 100;
+	font-stretch: ultra-condensed;
+	text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
+					1px 1px 1px rgba(255,255,255, 0.2), 
+					1px 1px 1px rgba(0,0,0, 0.7);
+   
+}
+
+
+.mainmain{
+	width: 670px; /* Ширина элемента в пикселах */
+    margin-top: -20px; /* Выравниваем по центру */
+	margin-left: 30px;
+font: 85% arial;
+color:rgb(109,123,143);
+line-height: 150%;
+}
+
+
+/* ПРАВАЯ МЕНЮШКА */
+
+
+
+
+#right_menu {
+		position:relative;
+		left:720px;
+		top: 65px;
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;		
+		height:50px;
+        width: 240px;
+      }
+	  
+	  #right_menu a {
+		text-align: center; 
+		padding-top: 13px;
+        background: url(right_menu_midle.gif);
+        height:31px;    
+        text-decoration: none;       
+        display: block;
+      }
+     
+      #right_menu a:hover {
+        background: rgb(0, 48, 110);
+		color: white;
+      }
+
+
+
+
+
+
+
+
+
+/* НИЖНЯЯ МЕНЮШКА */
+
+#navbar_down {
+	
+       text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
+					1px 1px 1px rgba(255,255,255, 0.2), 
+					1px 1px 1px rgba(0,0,0, 0.7);
+        padding: 0;
+        list-style-type: none;
+         
+        width: 550px;
+		height: 54px;             
+      }
+      #navbar_down li { display: inline; left:}
+      #navbar_down a {
+		  color: rgb(167,193,220);
+		  margin:15px;
+		  margin-top:16px;
+		   text-align:center;
+    
+        text-decoration: none;	
+        display: inline-block;       
+		height: 54px;
+      }
+
+	   #navbar_down li a:hover {
+        color: white;
+      }
+
+
+
+
+
+
+
+
+
+
+
+/* ВЕРХНЯЯ МЕНЮШКА */
+
+#navbar li:hover { display: block;   }
+#navbar li a:hover { color: white;  }
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar ul li { float: none;
+
+}
+
+
+
+
+
+#navbar ul {
+	
+	z-index:2;
+  display: none;
+  background: url(main_head_drop.gif);
+  position: absolute;
+  top: 100%;
+  width:210px;	/* ширина выпадающих хреней */ 
+ margin-top:15px;	/* отступ выпадающих написей от верха */
+}
+
+#navbar {
+  height: 30px;
+  padding-left:403px;	/* отступ верхних надписей слева */
+  min-width: 470px;
+	padding-top: 20px;	/* отступ верхиних написей от верха */
+}
+#navbar li {
+	
+  float: left;
+  position: relative;
+  height: 40px;			/* отступ верхних надписей от выпадающего меню */
+  
+}
+#navbar li a {
+margin-left:10px;		расстояние между верхними надписями
+margin-top:10px;		/* отступ верхних и выпадающих налдписей сверху */
+  display: block;
+  padding: 10px;
+  width: 100%;		/* ширина верхиних надписей */
+  height: 100px;	/* высота самих ссылок */
+  
+  text-decoration: none;
+  text-align: left;			/* центровка текста */
+}
+
+
+
+
+
+/* САМЫЙ НИЗ */
+.footer_pic { 
+ background: url(footer.png) 50%  no-repeat; /* Фоновый рисунок травы */
+bottom:0;
+left:-25px;
+width: 100%;
+height:123px;
+margin:0;
+}
+.footer-bg { 
+  background: rgb(0, 60, 126); /* Цвет фона подвала */
+  width: 100%; /* Ширина элемента в пикселах */
+  height: 300px;
+}
+
+
+
+
+

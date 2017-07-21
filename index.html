@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<script>document.onkeydown = function (e) {location.reload();}</script>
+    <title>Моя первая веб-страница</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+
+
+
+<div class="main_head">
+
+<div>
+<ul id="navbar">
+      <li><a href="#">Лодки</a>
+	  <ul>
+          <li><a href="#">Надувные лодки</a></li>
+          <li><a href="#">Пластиковые катера</a></li>
+          <li><a href="#">Комплектующие</a></li>
+
+         
+
+        </ul></li>
+      <li><a href="#">Лодочные моторы</a>
+	  <ul>
+          <li><a href="#">2-х тактные</a></li>
+          <li><a href="#">4-х тактные</a></li>
+          <li><a href="#">Электромоторы</a></li>
+		  <li><a href="#">Аккумуляторы</a></li>
+        </ul></li>
+      <li><a href="#">Снаряжение</a>
+        <ul>
+          <li><a href="#">Страховочные жилеты</a></li>
+          <li><a href="#">Гидрокостюмы</a></li>
+          <li><a href="#">Водные лыжи</a></li>
+		  <li><a href="#">Надувные атракционы</a></li>
+          <li><a href="#">Аксессуары</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Масла</a>
+	  <ul>
+          <li><a href="#">2-х тактные</a></li>
+          <li><a href="#">4-х тактные</a></li>
+          <li><a href="#">Общего назначения</a></li>
+        </ul>
+		</li>
+		 <li><a href="#">Контакты</a>
+		</li>
+    </ul>
+</div>
+</div>
+
+
+
+<div class="main">
+
+
+<div id = "slisli" class="slider">
+<img src="slides/p(0).jpg" id = "sli_0" class="slid_pic"> 
+  <img src="slides/p(1).jpg" id = "sli_1" class="slid_pic"> 
+<img src="slides/p(2).jpg" id = "sli_2" class="slid_pic"> 
+<img src="slides/p(3).jpg" id = "sli_3" class="slid_pic"> 
+<img src="slides/p(4).jpg" id = "sli_4" class="slid_pic"> 
+<img src="slides/p(5).jpg" id = "sli_5" class="slid_pic"> 
+<img src="slides/p(6).jpg" id = "sli_6" class="slid_pic"> 
+<img src="slides/p(7).jpg" id = "sli_7" class="slid_pic"> 
+</div>
+
+
+
+
+
+
+ <div class="down_menu">
+ <ul id="navbar_down">
+  <li><a href="#">Рыбалка</a></li>
+  <li><a href="#">Путешествия</a></li>
+  <li><a href="#">Дайвинг</a></li>
+  <li><a href="#">Яхтинг</a></li>
+</ul>
+</div>
+
+<div class="right_menu_div">
+
+ <ul id="right_menu">
+ <img src="right_menu_top.gif" style="position:relative;top:4px;left:-2px;">
+      <li><a href="#">2-х тактные</a></li>
+      <li><a href="#">4-х тактные</a></li>
+      <li><a href="#">Электромоторы</a></li>
+      <li><a href="#">Аккумуляторы</a></li>
+    
+<img src="right_menu_bottom.gif" style="position:relative;left:-2px;">
+</ul>
+</div>
+
+
+
+
+ <div class="mainmain">
+<h1 class="header">
+ 2-х тактные двигатели
+</h1>
+
+In general our factory production is focused on hot-air balloon systems. We produce all the main parts: envelopes, baskets, burners and fuel tanks as well as a number of accessories and other equipment such as inflation fans, transportation bags, quick releases and more.
+<img src="2_tact_3.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
+
+</div>
+
+<div class="footer_pic"></div>
+
+<div class="footer-bg">
+   
+ </div>
+
+
+<script>
+function slide() {
+setInterval(function() {
+slider()
+}, 2000);
+}
+current_slide = 0;
+
+ function slider() {
+
+current_slide_id = slisli.children[current_slide].id;
+current_slide_obj = document.getElementById(current_slide_id);
+next_slide = (current_slide > 6) ? (0) : (current_slide+1);
+
+next_slide_id = slisli.children[next_slide].id;
+next_slide_obj = document.getElementById(next_slide_id);
+current_slide++;
+if (current_slide>7){current_slide=0}
+console.log(      current_slide        )
+var count = 0;
+var timer = setInterval(function() {
+//эта херня делает последний кадр плавным, но портит картинку в целом
+//current_slide_obj.style.opacity = (current_slide_obj.style.opacity - count);
+next_slide_obj.style.opacity = count;
+count +=0.05;
+if (count > 0.999) { clearInterval(timer);current_slide_obj.style.opacity = 0;}
+}, 40)
+}
+
+slide();
+
+
+</script>
+
+
+</body>
+</html>
