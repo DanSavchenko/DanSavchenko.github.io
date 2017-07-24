@@ -8,36 +8,45 @@ A {
 	text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
 					1px 1px 1px rgba(255,255,255, 0.2), 
 					1px 1px 1px rgba(0,0,0, 0.7);
+   text-decoration: none; 
    }
+   A:hover{color:white}
 
 
 .main_head {
 
 	width: 960px; /* Ширина элемента в пикселах */
     margin: auto; /* Выравниваем по центру */
-	margin-top: 100px;
+	margin-top: 80px;
   height: 75px;
   background: url(sprite-main.png) no-repeat;
   background-position: 0  0px;  
  }
 
 .main{
+
+position:relative;
+top:-9px;
 	background : white;
 	width: 960px; /* Ширина элемента в пикселах */
     margin: auto; /* Выравниваем по центру */
-	margin-bottom:-120px;
-	  
+	margin-bottom:-142px;
+	
     align-items: center;
     justify-content: center; 
     overflow: auto;   
 }
 
-
+/* СЛАЙДЕР */
 .slid_pic{
 opacity:0;
 position: absolute;
-	top:175px;
+
 }
+
+
+
+
 .down_menu{
 width:960px;
 height:54px;
@@ -99,7 +108,7 @@ line-height: 150%;
      
       #right_menu a:hover {
         background: rgb(0, 48, 110);
-		color: white;
+		
       }
 
 
@@ -160,7 +169,7 @@ line-height: 150%;
   list-style-type: none;
 }
 #navbar ul li { float: none;
-
+  top:0px;
 }
 
 
@@ -179,20 +188,23 @@ line-height: 150%;
 }
 
 #navbar {
-  height: 30px;
+
   padding-left:403px;	/* отступ верхних надписей слева */
-  min-width: 470px;
-	padding-top: 20px;	/* отступ верхиних написей от верха */
+
+	
 }
 #navbar li {
-	
   float: left;
   position: relative;
   height: 40px;			/* отступ верхних надписей от выпадающего меню */
-  
+  top:-33px;
 }
+#navbar li ul{
+  top:49px;
+}
+
 #navbar li a {
-margin-left:10px;		расстояние между верхними надписями
+margin-left:10px;		/* расстояние между верхними надписями */
 margin-top:10px;		/* отступ верхних и выпадающих налдписей сверху */
   display: block;
   padding: 10px;
@@ -201,7 +213,11 @@ margin-top:10px;		/* отступ верхних и выпадающих нал�
   
   text-decoration: none;
   text-align: left;			/* центровка текста */
+
 }
+
+
+
 
 
 
@@ -209,19 +225,26 @@ margin-top:10px;		/* отступ верхних и выпадающих нал�
 
 /* САМЫЙ НИЗ */
 .footer_pic { 
- background: url(footer.png) 50%  no-repeat; /* Фоновый рисунок травы */
-bottom:0;
-left:-25px;
+ background: url(footer.png) 50%  ; /* Фоновый рисунок травы */
+bottom:-10px;
+left:0px;
 width: 100%;
 height:123px;
-margin:0;
+margin:auto;
+position:relative;
 }
 .footer-bg { 
   background: rgb(0, 60, 126); /* Цвет фона подвала */
   width: 100%; /* Ширина элемента в пикселах */
   height: 300px;
 }
-
+.contact { 
+text-align:center;
+  margin: auto; /* Выравниваем по центру */
+width:960px;
+  color: rgb(190, 211, 228); /* Цвет фона подвала */
+font: 80% arial;
+}
 
 
 
