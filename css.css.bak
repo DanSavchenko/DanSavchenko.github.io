@@ -237,7 +237,7 @@ position:relative;
 .footer-bg { 
   background: rgb(0, 60, 126); /* Цвет фона подвала */
   width: 100%; /* Ширина элемента в пикселах */
-  height: 310px;
+  height: 260px;
 }
 .contact { 
 text-align:center;
