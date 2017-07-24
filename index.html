@@ -189,14 +189,15 @@ next_slide_obj = document.getElementById(next_slide_id);
 
 var count = 0;
 var timer = setInterval(function() {
-//эта херня делает последний кадр плавным, но портит картинку в целом
-current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count/10));
+
+
+console.log(      current_slide_obj.style.opacity - (count/60)        )
+current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count/60));
 
 next_slide_obj.style.opacity = count;
 count +=0.01;
 
-console.log(      "-----------------"        )
-console.log(      next_slide_obj.style.opacity        )
+
 if (count > 1) { clearInterval(timer);current_slide_obj.style.opacity = 0;}
 }, 8)
 current_slide++;
