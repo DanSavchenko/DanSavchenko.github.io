@@ -40,10 +40,12 @@ top:-9px;
 
 /* СЛАЙДЕР */
 .slid_pic{
+
 opacity:0;
 position: absolute;
 
 }
+
 
 
 
@@ -72,7 +74,7 @@ margin-left:10px;	/* сдвигаем всю нижнюю меню вправо 
 
 
 .mainmain{
-	width: 670px; /* Ширина элемента в пикселах */
+	width: 650px; /* Ширина элемента в пикселах */
     margin-top: -20px; /* Выравниваем по центру */
 	margin-left: 30px;
 font: 85% arial;
@@ -190,7 +192,7 @@ line-height: 150%;
 
 #navbar {
 
-  padding-left:403px;	/* отступ верхних надписей слева */
+  padding-left:545px;	/* отступ верхних надписей слева */
 
 	
 }

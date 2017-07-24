@@ -104,10 +104,12 @@
 
  <div class="mainmain">
 <h1 class="header">
-Boat  *
+Safety vest
 </h1>
-In general our factory production is focused on hot-air balloon systems. We produce all the main parts: envelopes, baskets, burners and fuel tanks as well as a number of accessories and other equipment such as inflation fans, transportation bags, quick releases and more.
-<img src="team.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
+The most ancient examples of primitive life jackets can be traced back to inflated bladders of animal skins or hollow, sealed gourds, for support when crossing deep streams and rivers. Purpose-designed buoyant safety devices consisting of simple blocks of wood or cork were used by Norwegian seamen.
+
+<img src="oil.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
+</div>
 
 </div>
 
@@ -189,14 +191,12 @@ next_slide_obj = document.getElementById(next_slide_id);
 
 var count = 0;
 var timer = setInterval(function() {
-
-
-console.log(      current_slide_obj.style.opacity - (count/60)        )
-current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count/60));
+//эта херня делает последний кадр плавным, но портит картинку в целом
+console.log(              )
+current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count/50));
 
 next_slide_obj.style.opacity = count;
 count +=0.01;
-
 
 if (count > 1) { clearInterval(timer);current_slide_obj.style.opacity = 0;}
 }, 8)
