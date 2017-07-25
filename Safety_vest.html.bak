@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <script>
         document.onkeydown = function(e) {
             location.reload();

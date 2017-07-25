@@ -2,6 +2,7 @@
 <html>
 
 <head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script>
         document.onkeydown = function(e) {
             location.reload();
@@ -84,7 +85,7 @@
         <div class="right_menu_div">
 
             <ul id="right_menu">
-                <img src="right_menu_top.gif" style="position:relative;top:6px;left:-1px;">
+                <img src="right_menu_top.gif" style="">
                 <li><a href="2_stroke.html">2-stroke</a></li>
                 <li><a href="#">4-stroke</a></li>
                 <li><a href="#">Electric motors</a></li>

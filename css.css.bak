@@ -13,7 +13,13 @@ A {
    }
    A:hover{color:white}
 
-
+.rigt_menu_border{
+	position:relative;
+	top:6px;
+	left:-1px;
+	
+	
+}
 .main_head {
 
 	width: 960px; /* Ширина элемента в пикселах */
@@ -74,7 +80,7 @@ margin-left:10px;	/* сдвигаем всю нижнюю меню вправо 
 
 
 .mainmain{
-	width: 670px; /* Ширина элемента в пикселах */
+	width: 650px; /* Ширина элемента в пикселах */
     margin-top: -20px; /* Выравниваем по центру */
 	margin-left: 30px;
 font: 85% arial;
