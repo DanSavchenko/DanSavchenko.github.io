@@ -2,7 +2,8 @@
 <html>
 <head>
 <script>document.onkeydown = function (e) {location.reload();}</script>
-    <title>Моя первая веб-страница</title>
+    <title>
+Production & service</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css.css">
 </head>
@@ -95,7 +96,7 @@
       <li><a href="#">Electric motors</a></li>
       <li><a href="#">Accumulators</a></li>
     
-<img src="right_menu_bottom.gif" style="position:relative;;top:-1px;">
+<img src="right_menu_bottom.gif" style="position:relative;;top:-6px;left:-1px;">
 </ul>
 </div>
 
@@ -104,10 +105,10 @@
 
  <div class="mainmain">
 <h1 class="header">
-Boat  *
+Boat production & services
 </h1>
-In general our factory production is focused on hot-air balloon systems. We produce all the main parts: envelopes, baskets, burners and fuel tanks as well as a number of accessories and other equipment such as inflation fans, transportation bags, quick releases and more.
-<img src="team.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
+Company ATLANTIC MARINE has experience in production motor boat. We  specialise in manufacturing of modern motor  boats.
+Our company is engaged  with  each stage of the production starting  with a design project of  a motor boat which is finalny tested on the water.<img src="team.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
 
 </div>
 

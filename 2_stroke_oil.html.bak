@@ -1,214 +1,233 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
+
 <head>
-<script>document.onkeydown = function (e) {location.reload();}</script>
+    <script>
+        document.onkeydown = function(e) {
+            location.reload();
+        }
+    </script>
     <title>Моя первая веб-страница</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
 
+    <div class="main_head">
+        <a href="index.html"><img src="logo.png" style="position:relative;left:30px;top:16px;" border="0" alt="logo"></a>
+        <a href="#" style="position:relative;top:-75px;left:720px">English</a>
 
+        <div>
+            <ul id="navbar">
+                <li><a href="Inflatable_boats.html">Boats</a>
+                    <ul>
+                        <li><a href="Inflatable_boats.html">Inflatable boats</a></li>
+                        <li><a href="#">Plastic boats</a></li>
+                        <li><a href="#">Accessories</a></li>
 
+                    </ul>
+                </li>
+                <li><a href="2_stroke.html">Engines</a>
+                    <ul>
+                        <li><a href="2_stroke.html">2-stroke</a></li>
+                        <li><a href="#">4-stroke</a></li>
+                        <li><a href="#">Electric motors</a></li>
+                        <li><a href="#">Accumulators</a></li>
+                    </ul>
+                </li>
+                <li><a href="Safety_vest.html">Equipment</a>
+                    <ul>
+                        <li><a href="Safety_vest.html">Safety vest</a></li>
+                        <li><a href="#">Wetsuits</a></li>
+                        <li><a href="#">Water skiing</a></li>
+                        <li><a href="#">Inflatable attractions</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="2_stroke_oil.html">Oil</a>
+                    <ul>
+                        <li><a href="2_stroke_oil.html">2-stroke</a></li>
+                        <li><a href="#">4-stroke</a></li>
+                        <li><a href="#">Common use</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-<div class="main_head">
-<a href="index.html"><img src="logo.png" style="position:relative;left:30px;top:16px;" border="0" alt="logo"></a>
-<a href="#"  style="position:relative;top:-75px;left:720px" >English</a>
+    <div class="main">
 
+        <div id="slisli" class="slider">
+            <img src="slides/p(0).jpg" style="opacity:1" id="sli_0" class="slid_pic">
+            <img src="slides/p(1).jpg" id="sli_1" class="slid_pic">
+            <img src="slides/p(2).jpg" id="sli_2" class="slid_pic">
+            <img src="slides/p(3).jpg" id="sli_3" class="slid_pic">
+            <img src="slides/p(4).jpg" id="sli_4" class="slid_pic">
+            <img src="slides/p(5).jpg" id="sli_5" class="slid_pic">
+            <img src="slides/p(6).jpg" id="sli_6" class="slid_pic">
+            <img src="slides/p(7).jpg" id="sli_7" class="slid_pic">
+        </div>
 
-<div>
-<ul id="navbar">
-      <li><a href="Inflatable_boats.html">Boats</a>
-	  <ul>
-          <li><a href="Inflatable_boats.html">Inflatable boats</a></li>
-          <li><a href="#">Plastic boats</a></li>
-          <li><a href="#">Accessories</a></li>
+        <div class="down_menu">
+            <ul id="navbar_down">
+                <li><a href="#">Fishing</a></li>
+                <li><a href="#">Travels</a></li>
+                <li><a href="#">Diving</a></li>
+                <li><a href="#">Yachting</a></li>
+            </ul>
+        </div>
 
-         
+        <div class="right_menu_div">
 
-        </ul></li>
-      <li><a href="2_stroke.html">Engines</a>
-	  <ul>
-          <li><a href="2_stroke.html">2-stroke</a></li>
-          <li><a href="#">4-stroke</a></li>
-          <li><a href="#">Electric motors</a></li>
-		  <li><a href="#">Accumulators</a></li>
-        </ul></li>
-      <li><a href="Safety_vest.html">Equipment</a>
-        <ul>
-          <li><a href="Safety_vest.html">Safety vest</a></li>
-          <li><a href="#">Wetsuits</a></li>
-          <li><a href="#">Water skiing</a></li>
-		  <li><a href="#">Inflatable attractions</a></li>
-          <li><a href="#">Accessories</a></li>
-        </ul>
-      </li>
-      <li><a href="2_stroke_oil.html">Oil</a>
-	  <ul>
-          <li><a href="2_stroke_oil.html">2-stroke</a></li>
-          <li><a href="#">4-stroke</a></li>
-          <li><a href="#">Common use</a></li>
-        </ul>
-		</li>
-		 <li><a href="#">Contact</a>
-		</li>
-    </ul>
-</div>
-</div>
+            <ul id="right_menu">
+                <img src="right_menu_top.gif" style="position:relative;top:6px;left:-1px;">
+                <li><a href="2_stroke.html">2-stroke</a></li>
+                <li><a href="#">4-stroke</a></li>
+                <li><a href="#">Electric motors</a></li>
+                <li><a href="#">Accumulators</a></li>
 
+                <img src="right_menu_bottom.gif" style="position:relative;;top:-1px;">
+            </ul>
+        </div>
 
+        <div class="mainmain">
+            <h1 class="header">
+2-stroke oil
+</h1> Two-stroke oil (also referred to as two-cycle oil, 2-cycle oil, 2T oil, 2-stroke oil or petroil) is a special type of motor oil intended for use in crankcase compression two-stroke engines. Unlike a four-stroke engine, whose crankcase is closed except for its ventilation system, a two-stroke engine uses the crankcase as part of the induction tract, and therefore, oil must be mixed with gasoline to be distributed throughout the engine for lubrication. The resultant mix is referred to as petroil.[2] This oil is ultimately burned along with the fuel as a total-loss oiling system. This results in increased exhaust emissions, sometimes with excess smoke and/or a distinctive odor.
+            <img src="oil.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
+    </div>
 
-<div class="main">
+    </div>
 
+    <div class="footer_pic"></div>
 
-<div id = "slisli" class="slider">
-<img src="slides/p(0).jpg" style="opacity:1" id = "sli_0" class="slid_pic"> 
-  <img src="slides/p(1).jpg" id = "sli_1" class="slid_pic"> 
-<img src="slides/p(2).jpg" id = "sli_2" class="slid_pic"> 
-<img src="slides/p(3).jpg" id = "sli_3" class="slid_pic"> 
-<img src="slides/p(4).jpg" id = "sli_4" class="slid_pic"> 
-<img src="slides/p(5).jpg" id = "sli_5" class="slid_pic"> 
-<img src="slides/p(6).jpg" id = "sli_6" class="slid_pic"> 
-<img src="slides/p(7).jpg" id = "sli_7" class="slid_pic"> 
-</div>
+    <div class="footer-bg">
+        <div class="contact">
 
+            <table>
 
+                <tr>
+                    <td width="250">
+                        <a href="country"><img src="flag_germany.gif" class="flags"> Germany
+                            <br>
+                            <br> Kubicek Balloons Deutschland
+                            <br> Hitzleriederstrasse 15
+                            <br> D-87637 Seeg im Allgäu
+                            <br> phone: +49 8364 2074340
+                            <br>
 
+                        </a>
+                        <td width="250">
+                            <br>
+                            <br>
+                            <a href="country"><img src="flag_finland.gif" class="flags"> Finland
+                                <br>
+                                <br> Hartmann Abendstein
+                                <br> Aerohot Balloons HKI-OY
+                                <br> Itäinen Pitkäkatu 22
+                                <br> 06100 Porvoo
+                                <br> phone: +358 19583465
+                                <br> fax: +358 19583465
+                                <br>
+                            </a>
+                            <td width="250">
+                                <br>
+                                <br>
+                                <a href="country"><img src="flag_france.gif" class="flags"> France
+                                    <br>
+                                    <br> Daniel Favier
+                                    <br> Airshow
+                                    <br> 8, rue du Faubourg Poissonnière
+                                    <br> 75010 Paris
+                                    <br> phone: +33 153249547
+                                    <br> phone: +33 672819579
+                                    <br>
+                                </a>
 
+                                <td width="250">
+                                    <br>
+                                    <br>
+                                    <a href="country"><img src="flag_italy.gif" class="flags"> Italy
+                                        <br>
+                                        <br> Mauro Oggero
+                                        <br> FLY IN S.R.L. CON SOCIO UNICO
+                                        <br> Via Trinità 50
+                                        <br> 12041 Bene Vagiena (CN)
+                                        <br> phone: +39 0172 64 93 40
+                                        <br> phone: +39 348 26 90 942
+                </tr>
 
+                <tr class="footer_text">
+                    <td>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br> <a href=# class="footer_text">© 2017 Kubicek Balloons</a>
 
- <div class="down_menu">
- <ul id="navbar_down">
-  <li><a href="#">Fishing</a></li>
-  <li><a href="#">Travels</a></li>
-  <li><a href="#">Diving</a></li>
-  <li><a href="#">Yachting</a></li>
-</ul>
-</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="footer_text">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br><a href="#" class="footer_text">Site map</a> | <a href="#" class="footer_text">webdesign CANVAS</a></td>
 
-<div class="right_menu_div">
+                </tr>
+            </table>
 
- <ul id="right_menu">
- <img src="right_menu_top.gif" style="position:relative;top:6px;left:-1px;">
-      <li><a href="2_stroke.html">2-stroke</a></li>
-      <li><a href="#">4-stroke</a></li>
-      <li><a href="#">Electric motors</a></li>
-      <li><a href="#">Accumulators</a></li>
-    
-<img src="right_menu_bottom.gif" style="position:relative;;top:-1px;">
-</ul>
-</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
 
+    <script>
+        function slide() {
+            setInterval(function() {
+                slider()
+            }, 2000);
+        }
+        current_slide = 0;
 
+        function slider() {
+            if (current_slide > 7) {
+                current_slide = 0
+            }
+            current_slide_id = slisli.children[current_slide].id;
+            current_slide_obj = document.getElementById(current_slide_id);
 
+            next_slide = (current_slide > 6) ? (0) : (current_slide + 1);
+            next_slide_id = slisli.children[next_slide].id;
+            next_slide_obj = document.getElementById(next_slide_id);
 
- <div class="mainmain">
-<h1 class="header">
-Safety vest
-</h1>
-The most ancient examples of primitive life jackets can be traced back to inflated bladders of animal skins or hollow, sealed gourds, for support when crossing deep streams and rivers. Purpose-designed buoyant safety devices consisting of simple blocks of wood or cork were used by Norwegian seamen.
+            var count = 0;
+            var timer = setInterval(function() {
+                //эта херня делает последний кадр плавным, но портит картинку в целом
+                console.log()
+                current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count / 50));
 
-<img src="oil.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
-</div>
+                next_slide_obj.style.opacity = count;
+                count += 0.01;
 
-</div>
+                if (count > 1) {
+                    clearInterval(timer);
+                    current_slide_obj.style.opacity = 0;
+                }
+            }, 8)
+            current_slide++;
 
-<div class="footer_pic"></div>
+        }
 
-<div class="footer-bg">
-<div class="contact">
-
-<table>
-
-  <tr>
-    <td width="250"><a href="country"><img src="flag_germany.gif" class="flags">  Germany
-<br> <br>
-Kubicek Balloons Deutschland<br>
-Hitzleriederstrasse 15<br>
-D-87637 Seeg im Allgäu <br>
-phone: +49 8364 2074340<br>
-
-</a>
-<td width="250"><br><br><a href="country"><img src="flag_finland.gif" class="flags"> Finland <br><br>
-Hartmann Abendstein <br>
-Aerohot Balloons HKI-OY <br>
-Itäinen Pitkäkatu 22 <br>
-06100 Porvoo <br>
-phone: +358 19583465 <br>
-fax: +358 19583465 <br>
-</a>
-    <td width="250"><br><br><a href="country"><img src="flag_france.gif" class="flags"> France<br><br>
-Daniel Favier<br>
-Airshow<br>
-8, rue du Faubourg Poissonnière<br>
-75010 Paris<br>
-phone: +33 153249547<br>
-phone: +33 672819579 <br>
-</a>
-
-<td width="250"><br><br><a href="country"><img src="flag_italy.gif" class="flags"> Italy<br><br>
-Mauro Oggero <br>
-FLY IN S.R.L. CON SOCIO UNICO<br>
-Via Trinità 50<br>
-12041 Bene Vagiena (CN) <br>
-phone: +39 0172 64 93 40<br>
-phone: +39 348 26 90 942
-  </tr>
-  
-  <tr class="footer_text"><td><br><br><br><br><br> <a href=# class="footer_text">© 2017 Kubicek Balloons</a>
-  
-  
-  </td>
-  <td></td>
-  <td></td>
-  <td class="footer_text"><br><br><br><br><br><a href= "#" class="footer_text">Site map</a>	| <a href= "#" class="footer_text">webdesign CANVAS</a></td>
-  
-  
-  </tr>
-</table>
-
-
-</div><br><br><br><br>
- </div>
-
-
-<script>
-function slide() {
-setInterval(function() {
-slider()
-}, 2000);
-}
-current_slide = 0;
-
- function slider() {
-if (current_slide>7){current_slide=0}
-current_slide_id = slisli.children[current_slide].id;
-current_slide_obj = document.getElementById(current_slide_id);
-
-next_slide = (current_slide > 6) ? (0) : (current_slide+1);
-next_slide_id = slisli.children[next_slide].id;
-next_slide_obj = document.getElementById(next_slide_id);
-
-var count = 0;
-var timer = setInterval(function() {
-//эта херня делает последний кадр плавным, но портит картинку в целом
-console.log(              )
-current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count/50));
-
-next_slide_obj.style.opacity = count;
-count +=0.01;
-
-if (count > 1) { clearInterval(timer);current_slide_obj.style.opacity = 0;}
-}, 8)
-current_slide++;
-
-}
-
-slide();
-
-
-</script>
-
+        slide();
+    </script>
 
 </body>
+
 </html>

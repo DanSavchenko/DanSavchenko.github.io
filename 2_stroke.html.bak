@@ -7,7 +7,7 @@
             location.reload();
         }
     </script>
-    <title>2-stroke oil</title>
+    <title>Моя первая веб-страница</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css.css">
 </head>
@@ -95,10 +95,9 @@
 
         <div class="mainmain">
             <h1 class="header">
-2-stroke oil
-</h1> Two-stroke oil (also referred to as two-cycle oil, 2-cycle oil, 2T oil, 2-stroke oil or petroil) is a special type of motor oil intended for use in crankcase compression two-stroke engines. Unlike a four-stroke engine, whose crankcase is closed except for its ventilation system, a two-stroke engine uses the crankcase as part of the induction tract, and therefore, oil must be mixed with gasoline to be distributed throughout the engine for lubrication. The resultant mix is referred to as petroil.[2] This oil is ultimately burned along with the fuel as a total-loss oiling system. This results in increased exhaust emissions, sometimes with excess smoke and/or a distinctive odor.
-            <img src="oil.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
-    </div>
+2-stroke engines
+</h1> In general our factory production is focused on hot-air balloon systems. We produce all the main parts: envelopes, baskets, burners and fuel tanks as well as a number of accessories and other equipment such as inflation fans, transportation bags, quick releases and more.
+            <img src="2_tact_3.jpg" style="margin-top:20px;margin-bottom:140px;"></div>
 
     </div>
 
@@ -209,9 +208,9 @@
 
             var count = 0;
             var timer = setInterval(function() {
-                //эта херня делает последний кадр плавным, но портит картинку в целом
-                console.log()
-                current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count / 50));
+
+                console.log(current_slide_obj.style.opacity - (count / 60))
+                current_slide_obj.style.opacity = (current_slide_obj.style.opacity - (count / 60));
 
                 next_slide_obj.style.opacity = count;
                 count += 0.01;
